@@ -333,3 +333,21 @@ int main() {
 
 
 ```
+
+10. 
+
+```bash
+
+
+## Program Bahasa C Menghitung Gaji Karyawan ##
+===============================================
+Nama Karyawan    : Ox7
+Golongan         : A
+Jumlah Jam Kerja : 6 Jam
+
+menerima upah Rp. 198.000 per minggu
+Ox7 198.000
+
+```
+
+
