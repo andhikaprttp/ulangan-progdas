@@ -300,3 +300,36 @@ int main() {
 
 
 ```
+
+9. 
+
+```c++
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int bilangan, jumlah = 0, count = 0;
+    float rata_rata;
+
+    do {
+        cout << "Masukkan bilangan: ";
+        cin >> bilangan;
+
+        if (bilangan != 0) {
+            jumlah += bilangan;
+            count++;
+        }
+    } while (bilangan != 0);
+
+    rata_rata = static_cast<float>(jumlah) / count;
+
+    cout << "Jumlah bilangan: " << jumlah << endl;
+    cout << "Rata-rata bilangan: " << rata_rata << endl;
+    cout << "=================\n";
+    cout << "ganti namamu \n";
+    return 0;
+}
+
+
+```
