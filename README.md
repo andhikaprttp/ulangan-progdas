@@ -350,4 +350,74 @@ Ox7 198.000
 
 ```
 
+11.
+
+```c++
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int tahun;
+    cout << "==[ Program Cek Tahun Kabisat]==\n";
+    cout << "Masukkan tahun: ";
+    cin >> tahun;
+
+    if (tahun % 4 == 0) {
+        if (tahun % 100 == 0) {
+            if (tahun % 400 == 0)
+                cout << tahun << " adalah tahun kabisat.";
+            else
+                cout << tahun << " bukan tahun kabisat.";
+        }
+        else
+            cout << tahun << " adalah tahun kabisat.";
+    }
+    else
+        cout << tahun << " bukan tahun kabisat.";
+
+    return 0;
+}
+
+
+```
+
+12. Aritmatika pada bahasa C merujuk pada kumpulan operasi aritmatika seperti +,-,x(kali), pembagian (/), modulus (%) yaitu sisa dari pembagian.
+
+13. Float dan double adalah tipe data numerik (angka) perbedaannya hanya pada ukuran memori. Float menyimpan nolai desimal dengan 4 byte memori. sedangkan double menggunakan 8 byte memori.
+
+sebagai contoh float menyimpan data ``3.14`` sedangkan double seperti angka ``3.141592653589793``
+
+14.
+
+```c++
+
+
+Menghitung Luas dan Keliling Bangun Persegi Panjang
+
+#include <iostream>
+using namespace std;
+// Awang X TKJ 1
+int main() {
+   float panjang, lebar;
+
+   cout << "Masukkan panjang: ";
+   cin >> panjang;
+   cout << "Masukkan lebar: ";
+   cin >> lebar;
+
+   float luas = panjang * lebar;
+   float keliling = 2 * (panjang + lebar);
+
+   cout << "Luas persegi panjang: " << luas << endl;
+   cout << "Keliling persegi panjang: " << keliling << endl;
+
+   return 0;
+}
+
+
+```
+
 
