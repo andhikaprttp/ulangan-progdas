@@ -24,6 +24,7 @@ dibuat oleh [andhika pratama putra](andhika.md)
 6. Tentukan variabel-variabel yang dibutuhkan dalam pembuatan KTP (Kartu Tanda Penduduk)!
 
 7. Tuliskan dan buatkan program C++ untuk memeriksa 3 bilangan yang diinput. output harus memunculkan bilangan yang paling besar dan bilangan kecil, lalu apakah bilangan itu positif atau negatif!
+
 8. Tuliskan dan buatkan program mencetak yang mencetak bilangan bulat antara 10 sampai dengan 50 dan berapa jumlah bilangan yang ada ?.
 9. Tuliskan dan Buatkan program untuk memasukan bilangan yang diinput, bila di input angka nol maka proses penginputan selesai, lalu bilangan yang di input dijumlahkan dan dicari nilai rata ratanya. Berikut asalah tampilan yang di inginkan
 
